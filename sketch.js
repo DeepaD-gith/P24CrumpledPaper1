@@ -49,7 +49,7 @@ function keyPressed() {
 
      if(paperball.body.position.y>=570)
      {
-	  Matter.Body.applyForce(paperball.body,paperball.body.position,{x:6,y:-20});
+	  Matter.Body.applyForce(paperball.body,paperball.body.position,{x:4,y:-20});
 	 }
 	}
 	if (keyCode === RIGHT_ARROW) {
